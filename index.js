@@ -6,6 +6,7 @@ const lintGitFiles = require('./lib/lintGitFiles');
 const opt = require('node-getopt').create([
     ['w', 'warnings', 'enable warnings'],
     ['e', 'es6', 'allow es6 in .js files'],
+    ['', 'react', 'allow jsx in .js files'],
     ['', 'git', 'lint only staged git files'],
     ['', 'root[=path]', 'look for js files in this directory'],
     ['h', 'help', 'display this help'],
